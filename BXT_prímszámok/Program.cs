@@ -16,7 +16,13 @@ namespace BXT_1
 
             //MultiplyMatrix.Run(args);
 
-            Fibonacci.Run(args);
+            //Fibonacci.Run(args);
+
+            //Factorial.Run(args);
+
+            //GreatestCommonDivisor.Run(args);
+
+            BubbleSort.Run(args);
 
             Console.ReadKey();
         }

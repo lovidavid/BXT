@@ -6,32 +6,38 @@ using System.Threading.Tasks;
 
 namespace BXT_1
 {
-    class Fibonacci
+    class Factorial
     {
-        public static int FibonacciSorozat(int n)
+
+        public static int Faktoriális(int n)
         {
             if ((n == 0) || (n == 1))
             {
-                return n;
+                return 1;
             }
             else
             {
-                return (FibonacciSorozat(n - 1) + FibonacciSorozat(n - 2));
+                return n * Faktoriális(n-1);
             }
         }
+
+
         public static void Run(string[] args)
         {
             Console.BackgroundColor = ConsoleColor.DarkYellow;
             Console.ForegroundColor = ConsoleColor.Black;
             Console.Clear();
 
+
+
             Console.WriteLine("Adja meg a Fibonacci sorozat hosszát");
             int length = Convert.ToInt32(Console.ReadLine());
 
             for (int i = 0; i < length; i++)
             {
-                Console.Write("{0} ", FibonacciSorozat(i));
+                Console.Write("{0} ", Faktoriális(i));
             }
+
 
         }
     }

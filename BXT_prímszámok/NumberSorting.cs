@@ -14,15 +14,12 @@ namespace BXT_1
             Console.Clear();
 
             Console.WriteLine("Adja meg egy kezdőszámot");
-            string MinNumber = Console.ReadLine();
+            int Min = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Adja meg egy befejezőszámot");
-            string MaxNumber = Console.ReadLine();
+            int Max = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Adja meg egy tömb méretét");
-            string SizeNumber = Console.ReadLine();
+            int Size = Convert.ToInt32(Console.ReadLine());
 
-            int Min = Convert.ToInt32(MinNumber);
-            int Max = Convert.ToInt32(MaxNumber);
-            int Size = Convert.ToInt32(SizeNumber);
 
             int[] arr = new int[Size];
             Random rnd = new Random();

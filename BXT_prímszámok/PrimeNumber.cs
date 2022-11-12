@@ -14,13 +14,9 @@ namespace BXT_1
             Console.Clear();
 
             Console.WriteLine("Adja meg egy kezdőszámot");
-            string Number1 = Console.ReadLine();
+            int StartNumber = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Adja meg egy befejezőszámot");
-            string Number2 = Console.ReadLine();
-
-            int StartNumber = Convert.ToInt32(Number1);
-            int EndNumber = Convert.ToInt32(Number2);
-
+            int EndNumber = Convert.ToInt32(Console.ReadLine());
 
             for (int i = StartNumber; i < EndNumber + 1; i++)
             {
