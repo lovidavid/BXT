@@ -6,6 +6,10 @@ namespace BXT_1
     {
         static void Main(string[] args)
         {
+            PrimeNumber.Run();
+            
+
+
             //PrimeNumber.Run(args);
 
             //ListMinMax.Run(args);
@@ -22,7 +26,7 @@ namespace BXT_1
 
             //GreatestCommonDivisor.Run(args);
 
-            BubbleSort.Run(args);
+            //BubbleSort.Run(args);
 
             Console.ReadKey();
         }

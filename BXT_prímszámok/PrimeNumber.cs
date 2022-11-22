@@ -8,7 +8,7 @@ namespace BXT_1
 {
     public class PrimeNumber
     {   
-        public static void Run(string[] args)
+        public static void Run()
         {
             Console.BackgroundColor = ConsoleColor.Blue;
             Console.Clear();
