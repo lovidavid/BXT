@@ -28,12 +28,10 @@ namespace Exercises
              //Intelligent_Array a = new Intelligent_Array();
              Intelligent_Array.AskingType();
 
-            Intelligent_Array intelligent_Array = new Intelligent_Array();
-            intelligent_Array.ReadType(a);
 
             Console.WriteLine(a);
         }
 
-
+        
     }
 }

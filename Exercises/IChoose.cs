@@ -10,5 +10,7 @@ namespace Exercises
     {
 
         //public string ReadType(int Enum);
+
+       
     }
 }
