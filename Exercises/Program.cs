@@ -13,6 +13,7 @@ namespace Exercises
             //Intelligent_Array.Run(a);
 
             bool choose = false;
+            int arrSize = 5;
             string name = Console.ReadLine();
 
             //Console.WriteLine(name);
@@ -29,10 +30,11 @@ namespace Exercises
                     choose = true;
 
                     //Console.WriteLine("float");
-                    for (int i = 0; i < 5; i++)
+                    for (int i = 0; i < arrSize; i++)
                     {
                         //Console.WriteLine(intArray[i]);
-                        a.ArrayInt(5,i);
+                        
+                        a.ArrayInt(arrSize,i,i);
                     }
 
                 }
@@ -52,10 +54,11 @@ namespace Exercises
 
         }
 
-        public void ArrayInt(int x,int y)
+        public void ArrayInt(int x,int y, int z)
         {
 
             int[] arrayint = new int[x];
+            arrayint[y] = z;
             Console.WriteLine(arrayint[y]);
         }
 
