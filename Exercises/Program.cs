@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.ComponentModel;
 using System.Security.Cryptography.X509Certificates;
 
 namespace Exercises
@@ -18,6 +19,9 @@ namespace Exercises
             int[] intArray = new int[] { 1, 2 };
             float[] floatArray = new float[] { 1.23432f};
 
+            Program a = new Program();
+            
+
             while (choose == false)
             {
                 if (name == "float")
@@ -25,9 +29,10 @@ namespace Exercises
                     choose = true;
 
                     //Console.WriteLine("float");
-                    for (int i = 0; i < intArray.Length; i++)
+                    for (int i = 0; i < 5; i++)
                     {
-                        Console.WriteLine(intArray[i]);
+                        //Console.WriteLine(intArray[i]);
+                        a.ArrayInt(5,i);
                     }
 
                 }
@@ -47,10 +52,11 @@ namespace Exercises
 
         }
 
-        public void ArrayInt()
+        public void ArrayInt(int x,int y)
         {
 
-            
+            int[] arrayint = new int[x];
+            Console.WriteLine(arrayint[y]);
         }
 
        
