@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BXT_2
+namespace BXT_2.Utility
 {
     public record class Position(float X, float Y)
     {
