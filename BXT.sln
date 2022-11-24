@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BXT_1", "BXT_prímszámok\BXT_1.csproj", "{9BBA6B01-F9F8-4BE0-A426-8E7A86AE2C7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises", "Exercises\Exercises.csproj", "{139F1F10-5DB7-45BB-B8A2-4BA5F91A8E36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercises", "Exercises\Exercises.csproj", "{139F1F10-5DB7-45BB-B8A2-4BA5F91A8E36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BXT_2", "BXT_2\BXT_2.csproj", "{F7F1602A-7079-46B3-85B6-53FB823B546D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{139F1F10-5DB7-45BB-B8A2-4BA5F91A8E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{139F1F10-5DB7-45BB-B8A2-4BA5F91A8E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{139F1F10-5DB7-45BB-B8A2-4BA5F91A8E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F1602A-7079-46B3-85B6-53FB823B546D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F1602A-7079-46B3-85B6-53FB823B546D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F1602A-7079-46B3-85B6-53FB823B546D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F1602A-7079-46B3-85B6-53FB823B546D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
