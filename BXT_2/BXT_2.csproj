@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="LanguageExt.Core" Version="4.4.0" />
+    <PackageReference Include="LanguageExt.Parsec" Version="4.4.0" />
+  </ItemGroup>
+
 </Project>

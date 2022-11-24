@@ -11,9 +11,17 @@ namespace BXT_2.Geometrics
 {
     internal class Rectangle
     {
+      
         public Position Centre { get; set; }
         public float Width { get; init; }
         public float Height { get; init; }
+
+        //public float Rotation { get; init; }
+
+        public Rectangle()
+        {
+            Console.WriteLine("Ez egy négyzet");
+        }
 
         public Rectangle(Position centre, float Width, float Height)
         {
@@ -39,7 +47,8 @@ namespace BXT_2.Geometrics
             this.Height= second.Y - first.Y;
             this.Centre= new Position(second.X - (second.X-first.X)/2, second.Y-(second.Y - first.Y) / 2);
         }
-        
+
+
         public Position TopRightCorner { get => Centre - new Position(Width / 2, Height / 2); }
         public Position BottomLeftCorner { get => Centre + new Position(Width / 2, Height / 2); }
 

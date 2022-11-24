@@ -13,4 +13,4 @@ namespace BXT_2.Utility
         public static Position operator -(Position a, Position b) => a + -b;
     }
 }
-}
+
