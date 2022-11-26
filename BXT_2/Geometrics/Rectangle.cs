@@ -40,6 +40,10 @@ namespace BXT_2.Geometrics
         {
             if((third.X == second.X && third.Y == first.Y) || (third.X == first.X && third.Y == second.Y))
             {
+                
+            }
+            else
+            {
                 throw new ArgumentException("Not a rectangle");
             }
 
