@@ -18,10 +18,6 @@ namespace BXT_2.Geometrics
 
         //public float Rotation { get; init; }
 
-        public Rectangle()
-        {
-            Console.WriteLine("Ez egy négyzet");
-        }
 
         public Rectangle(Position centre, float Width, float Height)
         {
@@ -46,6 +42,7 @@ namespace BXT_2.Geometrics
             {
                 throw new ArgumentException("Not a rectangle");
             }
+            
 
             this.Width = second.X - first.X;
             this.Height= second.Y - first.Y;
@@ -53,11 +50,11 @@ namespace BXT_2.Geometrics
         }
 
 
-        public Position TopRightCorner { get => Centre - new Position(Width / 2, Height / 2); }
-        public Position BottomLeftCorner { get => Centre + new Position(Width / 2, Height / 2); }
+        public Position TopRightCorner { get => Centre + new Position(Width / 2, Height / 2); }
+        public Position BottomLeftCorner { get => Centre - new Position(Width / 2, Height / 2); }
 
-        public Position TopLeftCorner { get => Centre - new Position(-Width / 2, Height / 2); }
-        public Position BottomRightCorner { get => Centre - new Position(Width / 2, -Height / 2); }
+        public Position TopLeftCorner { get => Centre + new Position(Width / 2, -Height / 2); }
+        public Position BottomRightCorner { get => Centre + new Position(-Width / 2, Height / 2); }
 
         public void Move(Position delta)
         {
