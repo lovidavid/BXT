@@ -71,7 +71,7 @@ class Program
 
         Line line2 = new Line(StartPoint, EndPoint);
 
-
+        Line newLine = new(new(0, 0), new(2, 3));
 
 
 

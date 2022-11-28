@@ -26,7 +26,7 @@ namespace BXT_2.Geometrics
         {
             float x = Convert.ToSingle(1.720477401);
             
-            //Radius = x * Math.Pow(a, 2);
+            Radius = x * MathF.Pow(a, 2);
         }
 
 

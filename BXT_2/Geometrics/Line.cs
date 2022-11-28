@@ -42,4 +42,8 @@ namespace BXT_2.Geometrics
 
 
     }
+
+    public record class RecordLine(Position Start, Position End);
+
+    
 }
