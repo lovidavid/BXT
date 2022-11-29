@@ -23,10 +23,8 @@ namespace BXT_2.Geometrics
         }
 
         public Pentagon(float a)
-        {
-            float x = Convert.ToSingle(1.720477401);
-            
-            Radius = x * MathF.Pow(a, 2);
+        {                        
+            Radius = 1.720477401f * MathF.Pow(a, 2);
         }
 
 
