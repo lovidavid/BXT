@@ -30,12 +30,15 @@ class Program
         Console.WriteLine();
 
 
-        Rectangle rectangle2 = new Rectangle(position1,position2,position3);
-        Console.WriteLine(rectangle2.Width);
-        Console.WriteLine(rectangle2.Height);
-        Console.WriteLine(rectangle2.Centre);
-        Console.WriteLine();
-
+        
+        
+            Rectangle rectangle2 = new Rectangle(position1, position2, position3);
+            Console.WriteLine(rectangle2.Width);
+            Console.WriteLine(rectangle2.Height);
+            Console.WriteLine(rectangle2.Centre);
+            Console.WriteLine();
+        
+       
 
         Console.WriteLine("A téglalap területe: {0}", rectangle.CalculatedArea());
         Console.WriteLine("A téglalap térfogata: {0}", rectangle.CalculatedPerimeter());
