@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{62AA891F-5564-447B-86BE-E4CC604AA3F7}</ProjectGuid>
+    <ProjectGuid>{542DE130-8424-4A81-9014-A8FD1255D582}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>BXT_3</RootNamespace>
     <AssemblyName>BXT_3</AssemblyName>
@@ -43,14 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Geometrics\Rectangle.cs" />
-    <Compile Include="Geometrics\Square.cs" />
-    <Compile Include="Util\Position.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Util\IShape.cs" />
+    <Compile Include="Util\Shape.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Shapes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
